@@ -33,12 +33,10 @@ figure {
     padding: 15px;
     margin: 30px;
 }
-
 figcaption {
     font-style: italic;
     margin-top: 10px;
 }
-
 #centro-distribuicao {
     margin-left: auto;
     margin-right: auto;
@@ -58,16 +56,32 @@ figcaption {
     margin:0 0 10px 10px;
     float: right;
 }
-.menu-opcoes{
-
+.menu-opcoes a{
+    color: #003366;
+}
+.menu-opcoes ul{
+    font-size: 15px;
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
 }
 .menu-cabecalho{
 
 }
 .sacola{
-
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align:  right;
+    width: 140px;
+    padding-top: 8px;
 }
 .container{
     margin-right: auto;
     margin-left: auto;
+    margin: 0 auto;
+    width: 940px;
 }
