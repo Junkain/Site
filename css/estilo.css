@@ -1,3 +1,4 @@
+/* Tags */
 p {
     /* color: blue;
     background-color: yellow;
@@ -37,6 +38,11 @@ figcaption {
     font-style: italic;
     margin-top: 10px;
 }
+header {
+    position: relative;
+}
+
+/* ID */
 #centro-distribuicao {
     margin-left: auto;
     margin-right: auto;
@@ -56,8 +62,16 @@ figcaption {
     margin:0 0 10px 10px;
     float: right;
 }
+
+/* Class */
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .menu-opcoes a{
     color: #003366;
+    text-decoration: none;
 }
 .menu-opcoes ul{
     font-size: 15px;
@@ -65,9 +79,6 @@ figcaption {
 .menu-opcoes ul li{
     display: inline;
     margin-left: 20px;
-}
-.menu-cabecalho{
-
 }
 .sacola{
     background-image: url(../img/sacola.png);
@@ -78,10 +89,57 @@ figcaption {
     text-align:  right;
     width: 140px;
     padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .container{
     margin-right: auto;
     margin-left: auto;
     margin: 0 auto;
     width: 940px;
+}
+.busca, .menu-departamentos {
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+.busca h2, 
+.busca form, 
+.menu-departamentos h2 {
+    margin: 10px;
+}
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+.busca input[type=search]{
+    width: 170px;
+}
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.destaque {
+    margin-top: 10px;
+}
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.novidades {
+    float: left;
+}
+.mais-vendidos {
+    float: right;
 }
